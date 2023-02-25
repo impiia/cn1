@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Results summary component</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="left-container">
+      <h1>Your Result</h1>
+    
+        <div class="round">
+          <p class="big-num">76</p> 
+          <p class="small-num">of 100</p>
+        
+        </div>
+      
+      <p class="great-caption">Great</p>
+      <p class="scored-caption">You scored higher than 65% of the people who have taken these tests.</p>
+    </div>
+    <div class="right-container">
+      <h1>
+        Summary
+      </h1>
+      <div class="point-card card-pink">
+        <p class="point-card-caption"><img class="point-card-icon" src="./assets/images/icon-reaction.svg" alt="SVG"><span>Reaction</span> </p>
+        <p class="point-card-value"><span class="curent-point">80</span> <span class="total-point"> / 100</span></p>
+      </div>
+
+      <div class="point-card card-yellow">
+        <p class="point-card-caption"><img class="point-card-icon" src="./assets/images/icon-memory.svg" alt="SVG"> <span>Memory</span> </p>
+        <p class="point-card-value"><span class="curent-point">92</span><span class="total-point"> / 100</span></p>
+      </div>
+
+      <div class="point-card card-green">
+        <p class="point-card-caption"><img class="point-card-icon" src="./assets/images/icon-verbal.svg" alt="SVG"> <span>Verbal</span></p>
+        <p class="point-card-value"><span class="curent-point">61</span><span class="total-point"> / 100</span></p>
+      </div>
+      
+      <div class="point-card card-blue">
+        <p class="point-card-caption"><img class="point-card-icon" src="./assets/images/icon-visual.svg" alt="SVG"> <span>Visual</span></p>
+        <p class="point-card-value"><span class="curent-point">72</span><span class="total-point"> / 100</span></p>
+      </div>
+      <button class="btn">Continue</button>
+    </div>
+  </div>
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://github.com/impiia">Impiia</a>.
+  </div>
+</body>
+
+</html>
